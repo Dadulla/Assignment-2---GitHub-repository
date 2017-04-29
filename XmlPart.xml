@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListOfEmployees>
+	<Employee>
+		<PersonalData>
+			<Name>David</Name>
+			<Surname>Zacek</Surname>
+			<Title>None</Title>
+			<Nationality>Czech</Nationality>
+			<DayOfBirth format="YYYY-MM-DD">1995-08-21</DayOfBirth>
+			<PersonalIdentificationNumber>1234567794</PersonalIdentificationNumber>
+			<Gender>M</Gender>
+			<Allergy>Nuts,flowers</Allergy>
+		</PersonalData>
+		<SensitivePersonalInformation>
+			<CriminalActivities>None</CriminalActivities>
+			<SexualOrientation>Heteroesexual</SexualOrientation>
+			<Religion>None</Religion>
+		</SensitivePersonalInformation>
+		<ContactInformation>
+			<Country shortcut="CZE">Czech Republic</Country>
+			<City>Prague</City>
+			<HouseNumber>1546</HouseNumber>
+			<Street>Olšanská</Street>
+			<PostalCode>14000</PostalCode>
+			<District>Prague 4</District>
+			<Region>Prague</Region>
+			<PhoneNumber code="+420">123456789</PhoneNumber>
+			<PhoneNumberOfFM code="+430">987654218</PhoneNumberOfFM>
+			<Mail priority="1">zac@gmail.com</Mail>
+			<Mail priority="2">abc@seznam.cz</Mail>
+		</ContactInformation>
+		<WorkData>
+			<Position supervisor="YES">Salesman</Position>
+			<Salary currency="CZK">50000</Salary>
+			<DateOfHire>2016-04-02</DateOfHire>
+			<TerminationDate>2017-04-02</TerminationDate>
+			<TypeOfEmploymentAgreement>Full time</TypeOfEmploymentAgreement>
+			<Department>Electronic</Department>
+			<Outpost id="CZE5">Praha 5</Outpost>
+			<EmployeeSupervisor>None</EmployeeSupervisor>
+			<CountryOfOutpost>Czech Republic</CountryOfOutpost>
+			<Recommendation>YES</Recommendation>
+			<SupposedWorkingHours>10</SupposedWorkingHours>
+		</WorkData>
+		<EmployeeAccount>
+			<Created>2016-05-02</Created>
+			<Actualizated>2016-05-03</Actualizated>
+			<LastLoggedIn>2017-02-02</LastLoggedIn>
+			<UserName>xzac005</UserName>
+			<VerifiedUser>YES</VerifiedUser>
+			<Discount>25%</Discount>
+		</EmployeeAccount>
+	</Employee>
+
+	<Employee>
+		<PersonalData>
+			<Name>Ales</Name>
+			<Surname>Vesely</Surname>
+			<Title>Bc.</Title>
+			<Nationality>Czech</Nationality>
+			<DayOfBirth format="YYYY-MM-DD">1995-08-25</DayOfBirth>
+			<PersonalIdentificationNumber>2514687794</PersonalIdentificationNumber>
+			<Gender>M</Gender>
+			<Allergy>None</Allergy>
+		</PersonalData>
+		<SensitivePersonalInformation>
+			<CriminalActivities>None</CriminalActivities>
+			<SexualOrientation>Heteroesexual</SexualOrientation>
+			<Religion>None</Religion>
+		</SensitivePersonalInformation>
+		<ContactInformation>
+			<Country shortcut="CZE">Czech Republic</Country>
+			<City>Bustehrad</City>
+			<HouseNumber>1</HouseNumber>
+			<Street>U kahance</Street>
+			<PostalCode>25135</PostalCode>
+			<District>Central Bohemian Region</District>
+			<Region>Central Bohemian Region</Region>
+			<PhoneNumber code="+420">321519463</PhoneNumber>
+			<PhoneNumberOfFM code="+430">651473251</PhoneNumberOfFM>
+			<Mail priority="1">ale@gmail.com</Mail>
+			<Mail priority="2">dsls@seznam.cz</Mail>
+		</ContactInformation>
+		<WorkData>
+			<Position supervisor="YES">Boss</Position>
+			<Salary currency="CZK">500000</Salary>
+			<DateOfHire>2014-05-03</DateOfHire>
+			<TerminationDate>2018-04-08</TerminationDate>
+			<TypeOfEmploymentAgreement>Full time</TypeOfEmploymentAgreement>
+			<Department>Electronic</Department>
+			<Outpost id="CZE5">Praha 5</Outpost>
+			<EmployeeSupervisor>None</EmployeeSupervisor>
+			<CountryOfOutpost>Czech Republic</CountryOfOutpost>
+			<Recommendation>YES</Recommendation>
+			<SupposedWorkingHours>8</SupposedWorkingHours>
+		</WorkData>
+		<EmployeeAccount>
+			<Created>2014-05-03</Created>
+			<Actualizated>2014-05-05</Actualizated>
+			<LastLoggedIn>2016-02-02</LastLoggedIn>
+			<UserName>xales005</UserName>
+			<VerifiedUser>YES</VerifiedUser>
+			<Discount>35%</Discount>
+		</EmployeeAccount>
+	</Employee>
+
+	<Employee>
+		<PersonalData>
+			<Name>George</Name>
+			<Surname>Stastny</Surname>
+			<Title>None</Title>
+			<Nationality>British</Nationality>
+			<DayOfBirth format="YYYY-MM-DD">1998-09-01</DayOfBirth>
+			<PersonalIdentificationNumber>36952651489</PersonalIdentificationNumber>
+			<Gender>M</Gender>
+			<Allergy>None</Allergy>
+		</PersonalData>
+		<SensitivePersonalInformation>
+			<CriminalActivities>A lot</CriminalActivities>
+			<SexualOrientation>Bisexual</SexualOrientation>
+			<Religion>None</Religion>
+		</SensitivePersonalInformation>
+		<ContactInformation>
+			<Country shortcut="GBR">Great Britain</Country>
+			<City>Briston</City>
+			<HouseNumber>100</HouseNumber>
+			<Street>Wall streat</Street>
+			<PostalCode>21462</PostalCode>
+			<District>London</District>
+			<Region>Central</Region>
+			<PhoneNumber code="+620">321451475</PhoneNumber>
+			<PhoneNumberOfFM code="+630">625147852</PhoneNumberOfFM>
+			<Mail priority="1">geor@gmail.com</Mail>
+			<Mail priority="2">gorg@seznam.cz</Mail>
+		</ContactInformation>
+		<WorkData>
+			<Position supervisor="NO">Cleaner</Position>
+			<Salary currency="GBP">600</Salary>
+			<DateOfHire>2015-01-20</DateOfHire>
+			<TerminationDate>2016-01-20</TerminationDate>
+			<TypeOfEmploymentAgreement>Part time</TypeOfEmploymentAgreement>
+			<Department>consumer goods</Department>
+			<Outpost id="GBR21">London</Outpost>
+			<EmployeeSupervisor>Zayane Walida</EmployeeSupervisor>
+			<CountryOfOutpost>Great Britain</CountryOfOutpost>
+			<Recommendation>NO</Recommendation>
+			<SupposedWorkingHours>14</SupposedWorkingHours>
+		</WorkData>
+		<EmployeeAccount>
+			<Created>2015-01-22</Created>
+			<Actualizated>2015-01-23</Actualizated>
+			<LastLoggedIn>2015-09-22</LastLoggedIn>
+			<UserName>george005</UserName>
+			<VerifiedUser>YES</VerifiedUser>
+			<Discount>5%</Discount>
+		</EmployeeAccount>
+	</Employee>
+
+	<Employee>
+		<PersonalData>
+			<Name>Jan</Name>
+			<Surname>Ledecky</Surname>
+			<Title>None</Title>
+			<Nationality>Czech</Nationality>
+			<DayOfBirth format="YYYY-MM-DD">1995-07-29</DayOfBirth>
+			<PersonalIdentificationNumber>2855441669</PersonalIdentificationNumber>
+			<Gender>M</Gender>
+			<Allergy>None</Allergy>
+		</PersonalData>
+		<SensitivePersonalInformation>
+			<CriminalActivities>None</CriminalActivities>
+			<SexualOrientation>Heterosexual</SexualOrientation>
+			<Religion>Christian</Religion>
+		</SensitivePersonalInformation>
+		<ContactInformation>
+			<Country shortcut="CZE">Czech Republic</Country>
+			<City>Brno</City>
+			<HouseNumber>2</HouseNumber>
+			<Street>Brnenska</Street>
+			<PostalCode>25169</PostalCode>
+			<District>South Moravian</District>
+			<Region>South Moravian</Region>
+			<PhoneNumber code="+420">32626254</PhoneNumber>
+			<PhoneNumberOfFM code="+420">732629498</PhoneNumberOfFM>
+			<Mail priority="1">jon@gmail.com</Mail>
+			<Mail priority="2">blabla@seznam.cz</Mail>
+		</ContactInformation>
+		<WorkData>
+			<Position supervisor="NO">Salesman</Position>
+			<Salary currency="GBP">1500</Salary>
+			<DateOfHire>2013-02-30</DateOfHire>
+			<TerminationDate>2020-02-30</TerminationDate>
+			<TypeOfEmploymentAgreement>Full time</TypeOfEmploymentAgreement>
+			<Department>Electronic</Department>
+			<Outpost id="GBR21">London</Outpost>
+			<EmployeeSupervisor>None</EmployeeSupervisor>
+			<CountryOfOutpost>Great Britain</CountryOfOutpost>
+			<Recommendation>YES</Recommendation>
+			<SupposedWorkingHours>12</SupposedWorkingHours>
+		</WorkData>
+		<EmployeeAccount>
+			<Created>2013-02-30</Created>
+			<Actualizated>2013-03-01</Actualizated>
+			<LastLoggedIn>2017-03-01</LastLoggedIn>
+			<UserName>xzaya005</UserName>
+			<VerifiedUser>YES</VerifiedUser>
+			<Discount>30%</Discount>
+		</EmployeeAccount>
+	</Employee>
+
+	<Employee>
+		<PersonalData>
+			<Name>Abida</Name>
+			<Surname>Hadja</Surname>
+			<Title>None</Title>
+			<Nationality>Arab Emirates</Nationality>
+			<DayOfBirth format="YYYY-MM-DD">1998-04-30</DayOfBirth>
+			<PersonalIdentificationNumber>6251452348</PersonalIdentificationNumber>
+			<Gender>F</Gender>
+			<Allergy>None</Allergy>
+		</PersonalData>
+		<SensitivePersonalInformation>
+			<CriminalActivities>None</CriminalActivities>
+			<SexualOrientation>Heteroesexual</SexualOrientation>
+			<Religion>Muslim</Religion>
+		</SensitivePersonalInformation>
+		<ContactInformation>
+			<Country shortcut="SAE">United Arab Emirates</Country>
+			<City>London</City>
+			<HouseNumber>2142</HouseNumber>
+			<Street>Brick Street</Street>
+			<PostalCode>26154</PostalCode>
+			<District>Aabsky</District>
+			<Region>Middle</Region>
+			<PhoneNumber code="+620">123456789</PhoneNumber>
+			<PhoneNumberOfFM code="+720">987654218</PhoneNumberOfFM>
+			<Mail priority="1">abi@gmail.com</Mail>
+			<Mail priority="2">zay@seznam.cz</Mail>
+		</ContactInformation>
+		<WorkData>
+			<Position supervisor="YES">Salesman</Position>
+			<Salary currency="GBR">1600</Salary>
+			<DateOfHire>2015-01-01</DateOfHire>
+			<TerminationDate>2015-01-01</TerminationDate>
+			<TypeOfEmploymentAgreement>Full time</TypeOfEmploymentAgreement>
+			<Department>Electronic</Department>
+			<Outpost id="GBR2">London</Outpost>
+			<EmployeeSupervisor>Ales Vesely</EmployeeSupervisor>
+			<CountryOfOutpost>Great Britain</CountryOfOutpost>
+			<Recommendation>YES</Recommendation>
+			<SupposedWorkingHours>12</SupposedWorkingHours>
+		</WorkData>
+		<EmployeeAccount>
+			<Created>2015-01-02</Created>
+			<Actualizated>2015-01-03</Actualizated>
+			<LastLoggedIn>2017-02-02</LastLoggedIn>
+			<UserName>xab005</UserName>
+			<VerifiedUser>YES</VerifiedUser>
+			<Discount>30%</Discount>
+		</EmployeeAccount>
+	</Employee>
+</ListOfEmployees>

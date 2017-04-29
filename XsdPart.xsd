@@ -1,0 +1,146 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ListOfEmployees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Employee" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PersonalData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Name"/>
+                    <xs:element type="xs:string" name="Surname"/>
+                    <xs:element type="xs:string" name="Title"/>
+                    <xs:element type="xs:string" name="Nationality"/>
+                    <xs:element name="DayOfBirth">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:date">
+                            <xs:attribute type="xs:string" name="format" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:long" name="PersonalIdentificationNumber"/>
+                    <xs:element type="xs:string" name="Gender"/>
+                    <xs:element type="xs:string" name="Allergy"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SensitivePersonalInformation">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="CriminalActivities"/>
+                    <xs:element type="xs:string" name="SexualOrientation"/>
+                    <xs:element type="xs:string" name="Religion"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ContactInformation">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="shortcut" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="City"/>
+                    <xs:element type="xs:short" name="HouseNumber"/>
+                    <xs:element type="xs:string" name="Street"/>
+                    <xs:element type="xs:short" name="PostalCode"/>
+                    <xs:element type="xs:string" name="District"/>
+                    <xs:element type="xs:string" name="Region"/>
+                    <xs:element name="PhoneNumber">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute type="xs:short" name="code" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="PhoneNumberOfFM">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute type="xs:short" name="code" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Mail" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="priority" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="WorkData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Position">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="supervisor" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Salary">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute type="xs:string" name="currency" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="DateOfHire"/>
+                    <xs:element type="xs:string" name="TerminationDate"/>
+                    <xs:element type="xs:string" name="TypeOfEmploymentAgreement"/>
+                    <xs:element type="xs:string" name="Department"/>
+                    <xs:element name="Outpost">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="EmployeeSupervisor"/>
+                    <xs:element type="xs:string" name="CountryOfOutpost"/>
+                    <xs:element type="xs:string" name="Recommendation"/>
+                    <xs:element type="xs:byte" name="SupposedWorkingHours"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="EmployeeAccount">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Created"/>
+                    <xs:element type="xs:date" name="Actualizated"/>
+                    <xs:element type="xs:date" name="LastLoggedIn"/>
+                    <xs:element type="xs:string" name="UserName"/>
+                    <xs:element type="xs:string" name="VerifiedUser"/>
+                    <xs:element type="xs:string" name="Discount"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
